@@ -1,0 +1,21 @@
+1, Qu'est-ce qu’un ORM ?
+ Un ORM (Object-Relational Mapping) est un outil qui permet de travailler avec des bases de données en utilisant du code au lieu d'écrire des requêtes SQL manuellement.
+ Par exemple, au lieu d'écrire une requête pour récupérer des données, tu utilises du code pour accéder à ces données directement.
+
+2. Trois avantages de l'ORM :
+
+    Facilité : Pas besoin d'écrire des requêtes SQL compliquées, tu utilises juste du code pour accéder à la base de données.
+    Gain de temps : L'ORM s'occupe de la plupart des tâches répétitives comme l'insertion, la mise à jour ou la suppression des données.
+    Maintenance plus facile : Le code est plus lisible et simple à modifier, car il est organisé sous forme d'objets.
+
+3. Les types de relations dans un ORM :
+
+    Un-à-un : Par exemple, une personne n'a qu'une seule carte d'identité.
+    Un-à-plusieurs : Un auteur peut avoir plusieurs livres.
+    Plusieurs-à-plusieurs : Un étudiant peut être inscrit à plusieurs cours et chaque cours peut avoir plusieurs étudiants.
+
+4. Quelques ORM connus :
+
+    JavaScript : Sequelize, Mongoose (pour MongoDB)
+    Python : Django ORM, SQLAlchemy
+    PHP : Eloquent (Laravel)
